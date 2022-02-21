@@ -2,11 +2,11 @@
     "type": "object",
     "required": ["Deployment_Name","Pod_Name", "image","replicas", "Key", "Value"],
     "properties": {
-      "Deployment Name": {
+      "Deployment_Name": {
         "type": "string",
         "default": "my-deployment"
       },
-      "Pod Name": {
+      "Pod_Name": {
         "type": "string",
         "default": "my-pod"
       },
@@ -21,7 +21,7 @@
         "default": "my-app"
       },
 
-      "replicas":{
+      "Replicas":{
           "type": "integer"
       },
       "namespace": {
