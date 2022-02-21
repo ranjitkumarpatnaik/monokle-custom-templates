@@ -1,10 +1,24 @@
 {
     "type": "object",
-    "required": ["dep_name","pod_name", "image","replicas", "label_key", "label_value"],
+    "required": ["Deployment_Name","Pod_Name", "image","replicas", "Key", "Value"],
     "properties": {
-      "name": {
+      "Deployment Name": {
+        "type": "string",
+        "default": "my-deployment"
+      },
+      "Pod Name": {
         "type": "string",
         "default": "my-pod"
+      },
+
+      "Key": {
+        "type": "string",
+        "default": "app"
+      },
+
+      "Value": {
+        "type": "string",
+        "default": "my-app"
       },
 
       "replicas":{

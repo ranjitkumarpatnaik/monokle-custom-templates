@@ -1,20 +1,20 @@
 {
-    "dep_name": {
+    "Deployment_Name": {
       "ui:title": "Deployment Name",
       "ui:help": "The name of the Deployment"
     },
 
-    "pod_name": {
+    "Pod_Name": {
         "ui:title": "Pod Name",
         "ui:help": "The name of the Pod"
     },
 
-    "label_key": {
+    "Key": {
         "ui:title": "Selector Key",
         "ui:help": "The key of the selector"
     },
 
-    "label_value": {
+    "Value": {
         "ui:title": "Selector value",
         "ui:help": "value of the key"
     },
