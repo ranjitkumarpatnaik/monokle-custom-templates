@@ -8,6 +8,10 @@
         "ui:title": "Pod Name",
         "ui:help": "The name of the Pod"
     },
+    "Replicas": {
+        "ui:title": "Number of Replicas",
+        "ui:help": "Type the number of desired replicas"
+    },
 
     "Key": {
         "ui:title": "Selector Key",

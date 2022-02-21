@@ -1,6 +1,6 @@
 {
     "type": "object",
-    "required": ["Deployment_Name","Pod_Name", "image","replicas", "Key", "Value"],
+    "required": ["Deployment_Name","Pod_Name", "image","Replicas", "Key", "Value"],
     "properties": {
       "Deployment_Name": {
         "type": "string",
