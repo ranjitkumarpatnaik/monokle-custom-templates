@@ -1,0 +1,15 @@
+{
+	"name": "Custom Templates Plugin",
+	"description": "Custom kubernetes templates plugin",
+	"version": "1.0.0",
+	"author": "P Ranjit Kumar",
+	"repository": "https://github.com/ranjitkumarpatnaik/monokle-custom-templates",
+	"monoklePlugin": {
+		"id": "com.github.kunal-kushwaha.plugin.templates",
+		"helpUrl": "https://github.com/ranjitkumarpatnaik/monokle-custom-templates",
+		"modules": [{
+			"type": "template",
+			"path": "basic-deployment-template"
+		}]
+	}
+}

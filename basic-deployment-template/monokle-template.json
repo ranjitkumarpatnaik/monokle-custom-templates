@@ -1,0 +1,24 @@
+{
+    "name": "Basic Kubernetes Deployment",
+    "id": "com.github.ranjit-kumar-patnaik.plugin.templates.basic-deployment-template",
+    "author": "Ranjit Kumar Patnaik",
+    "version": "1.0.0",
+    "description": "Creates a deployment definition for a specified Image with replicas",
+    "repository": "",
+    "type": "vanilla",
+    "forms": [
+      {
+        "name": "Deployment Settings",
+        "description": "Specify the settings for your deployment",
+        "schema": "form-schema.json",
+        "uiSchema": "form-ui-schema.json"
+      }
+    ],
+    "manifests": [
+      {
+        "filePath": "deployment.yaml"
+      }
+    ],
+    "resultMessage": "Deployment resource created successfully!",
+    "helpUrl": "https://github.com/ranjitkumarpatnaik/monokle-custom-templates"
+  }

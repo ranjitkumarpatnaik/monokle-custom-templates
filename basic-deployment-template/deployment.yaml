@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: [[forms[0].dep_name]]
+[[ forms[0].namespace ? "  namespace: " + forms[0].namespace + "\n" : ""]]
+spec:
+  replicas: [[forms[0].replicas]]
+  selector:
+    matchLabels:
+      [[forms[0].label_key]] : [[forms[0].label_value]]
+  containers:
+    - image: [[forms[0].image]]
+      name: [[forms[0].pod_name]]
+      resources: {}

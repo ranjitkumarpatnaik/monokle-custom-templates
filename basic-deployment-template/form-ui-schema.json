@@ -1,0 +1,32 @@
+{
+    "dep_name": {
+      "ui:title": "Deployment Name",
+      "ui:help": "The name of the Deployment"
+    },
+
+    "pod_name": {
+        "ui:title": "Pod Name",
+        "ui:help": "The name of the Pod"
+    },
+
+    "label_key": {
+        "ui:title": "Selector Key",
+        "ui:help": "The key of the selector"
+    },
+
+    "label_value": {
+        "ui:title": "Selector value",
+        "ui:help": "value of the key"
+    },
+
+    "namespace": {
+      "ui:title": "Namespace",
+      "ui:help": "The target namespace for the Pod",
+      "ui:widget": "namespaceSelection"
+    },
+    "image": {
+      "ui:title": "Image",
+      "ui:help": "The image name to use for the Pod, for example nginx-ingress:latest"
+    }
+  }
+  

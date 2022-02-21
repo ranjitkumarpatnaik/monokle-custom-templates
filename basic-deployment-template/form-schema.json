@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "required": ["dep_name","pod_name", "image","replicas", "label_key", "label_value"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "default": "my-pod"
+      },
+
+      "replicas":{
+          "type": "integer"
+      },
+      "namespace": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string"
+      }
+    }
+  }
+  
