@@ -1,8 +1,8 @@
 {
     "name": "Basic Kubernetes Deployment",
     "id": "com.github.ranjit-kumar-patnaik.plugin.templates.basic-deployment-template",
-    "author": "Ranjit Kumar Patnaik",
-    "version": "1.0.0",
+    "author": "Ranjit Patnaik",
+    "version": "1.0.1",
     "description": "Creates a deployment definition for a specified Image with replicas",
     "repository": "",
     "type": "vanilla",
