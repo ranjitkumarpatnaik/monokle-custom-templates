@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Deployment
 metadata:
-  name: [[forms[0].Deployment_Namee]]
+  name: [[forms[0].Deployment_Name]]
 [[ forms[0].namespace ? "  namespace: " + forms[0].namespace + "\n" : ""]]
 spec:
-  replicas: [[forms[0].replicas]]
+  replicas: [[forms[0].Replicas]]
   selector:
     matchLabels:
       [[forms[0].Key]] : [[forms[0].Value]]
